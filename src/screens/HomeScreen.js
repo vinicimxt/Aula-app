@@ -5,7 +5,7 @@ const HomeScreen = ({navigation}) =>{
         <View style={styles.container}>
             <h1>MOOVIE BACK</h1>
             <br></br> <Text> SEJA BEM VINDO</Text> <br></br>
-            <Text>Olá nosso site será baseado em feedback de filmes,series,animes entre outros.</Text>
+            <h2>Olá nosso site será baseado em feedback de filmes,series,animes entre outros.</h2>
             <br></br>
             <img src='https://pbs.twimg.com/profile_images/1501256687910408192/Vb-5deew_400x400.jpg' class='imagem' width={200}></img>
             <br></br>
@@ -34,10 +34,9 @@ export default HomeScreen
 const styles = StyleSheet.create({  
     container:{
         flex:1,
-        backgroundColor : "#fff",
+        backgroundColor : "#b8cad4",
         alignItems : "center",
         justifyContent : "center",  
-    },
-   
-   
+    }
+
 })
